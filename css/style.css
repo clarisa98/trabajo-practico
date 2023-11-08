@@ -11,7 +11,12 @@ header{
 .filter{
  filter: brightness(0.5);
 }
- 
+.comprar{
+    background-color: #29a744;
+    border-color: #29a744;
+    margin-left: 10px;
+}
+
 .subtitulo{
     text-align: center;
 }
@@ -52,13 +57,19 @@ header{
 .convertite{
     text-align: center;
 }
-.btn1{
+.enviar{
     padding: 10px;
     background-color:#96c93e;
     border-color: #96c93e;
     border-radius:5px;
     color:white;
+    border-style: none;
 }
+.enviar:hover{
+    background-color: #29a744;
+    border-style: none;
+}
+
 .footer{
     background:#1d465c !important;
     color: white !important;
